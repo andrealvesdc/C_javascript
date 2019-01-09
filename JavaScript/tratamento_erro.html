@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>desafio</title>
+		<meta charset="utf-8">
+
+		<script>
+
+			throw new Erro('ouve um erro')
+
+			var video = Array()
+			video[1] = Array()
+			video[1]['nome'] = 'Fullmetal'
+			video[1]['categoria'] = 'Anime'
+
+			function getVideo(video){
+
+				try {
+					console.log(video[0]['nome'])
+
+				} catch(erro){
+					console.log('Agora o erro foi tratado')
+
+				} finally {
+					console.log('Sempre passa por aqui')				}
+
+				console.log('O console não morreu')
+			}
+
+
+			getVideo(video)
+
+		</script>
+	</head>
+	<body>
+
+
+	</body>
+</html
