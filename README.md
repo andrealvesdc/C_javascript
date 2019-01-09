@@ -1,2 +1,2 @@
 # C_javascript
-praticas de javascript
+Notações e resolução de exercícios de JavaScript 
